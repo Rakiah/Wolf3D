@@ -1,6 +1,6 @@
 ## What is this ?
 
-Just a little "game" for educationnal purpose teaching raycasting algorithms
+Just a little "game" for educationnal purpose to learn raycasting algorithms
 just like wolf3D game, it features a little labyrinth with destroyable wall
 and wall without physics. enjoy finding the diamond block to end the game :D
 
