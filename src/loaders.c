@@ -6,7 +6,7 @@
 /*   By: bkabbas <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/30 07:02:57 by bkabbas           #+#    #+#             */
-/*   Updated: 2016/03/30 07:12:34 by bkabbas          ###   ########.fr       */
+/*   Updated: 2016/07/26 21:18:21 by Rakiah           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,6 +36,7 @@ void		load_textures(t_core *core)
 	list_push_back(core->textures, SDL_LoadBMP("textures/test.bmp"));
 	list_push_back(core->textures, SDL_LoadBMP("textures/ceil.bmp"));
 	core->weapon = SDL_LoadBMP("textures/sword.bmp");
+	SDL_SetColorKey(core->weapon, SDL_TRUE, 0);
 }
 
 void		load_map(t_core *core, char *path)

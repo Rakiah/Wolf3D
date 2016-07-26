@@ -6,7 +6,7 @@
 #    By: bkabbas <marvin@42.fr>                     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2016/01/18 21:30:01 by bkabbas           #+#    #+#              #
-#    Updated: 2016/03/30 08:50:26 by bkabbas          ###   ########.fr        #
+#    Updated: 2016/07/26 21:17:33 by Rakiah           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -15,6 +15,7 @@ PATH_SRC = src/
 PATH_HEADERS = -I includes/ \
 			   -I libft/includes/ \
 			   -I rlists/includes/ \
+			   -I SDL2/includes/ \
 			   -I ~/.brew/include/SDL2/
 PATH_INPUT = $(PATH_SRC)input/
 SRC = $(PATH_SRC)main.c $(PATH_SRC)raycaster.c $(PATH_SRC)tools.c $(PATH_SRC)loaders.c $(PATH_SRC)events.c $(PATH_SRC)floor_ceiling.c
